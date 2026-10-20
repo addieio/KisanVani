@@ -1,0 +1,12 @@
+ALS
+Angular Leafspot
+Anthracnose Fruit Rot
+Bean Rust
+Blossom Blight
+Gray Mold
+Leaf Spot
+Powdery Mildew Fruit
+Powdery Mildew Leaf
+disease
+leaf mold
+spider mites
