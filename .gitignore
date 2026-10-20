@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Next.js Build
+.next/
+out/
+build/
+dist/
+
+# Flutter & Android
+mobile/.dart_tool/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/.packages
+mobile/build/
+mobile/android/.gradle/
+mobile/android/app/build/
+mobile/android/local.properties
+mobile/android/key.properties
+mobile/ios/.symlinks/
+mobile/ios/Pods/
+
+# Environment Files
+.env.local
+.env.*.local
+*.env
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# TypeScript Cache
+*.tsbuildinfo
+next-env.d.ts
+
+# Audio temporary files
+*.wav
+*.mp3
+
+# Large Raw Datasets (keep trained models in detection/)
+*.tar.gz
+*.zip
+*.log
+hackathon_team_modules/
+
+# Git subfolder references
+git 1/
+git 2/
+design inspo/
+.vercel
+.env*
+!.env.example
+/*.png

@@ -1,0 +1,15 @@
+# Vercel Deployment Exclusions
+mobile/
+detection/
+scripts/
+git 1/
+git 2/
+design inspo/
+hackathon_team_modules/
+supabase/
+*.pt
+*.onnx
+*.weights
+*.log
+*.zip
+*.tar.gz
