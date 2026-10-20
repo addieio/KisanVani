@@ -213,53 +213,6 @@ The platform is backed by a fully normalized Supabase PostgreSQL schema defined 
 
 ---
 
-## 🚀 Quick Start & Installation
-
-### Prerequisites
-- Node.js ≥ 18.x
-- Python ≥ 3.10
-- Flutter SDK ≥ 3.29 & Android SDK (for mobile)
-- USB-connected Android phone with Developer Mode / USB Debugging enabled
-
-### 1. Web PWA Setup
-```bash
-# Clone the repository
-git clone https://github.com/addieio/KisanVaani.git
-cd KisanVaani
-
-# Install dependencies
-npm install
-
-# Start Next.js development server
-npm run dev
-# Web app runs on http://localhost:3000
-```
-
-### 2. AI & Vision Daemon (YOLOv8 + Gemini 3.8 Flash)
-```bash
-# Install Python dependencies
-pip install ultralytics fastapi uvicorn requests pillow
-
-# Start microservice daemon on port 8000
-python scripts/detector_service.py
-# Server runs on http://127.0.0.1:8000
-```
-
-### 3. Flutter Android App Deployment
-```bash
-cd mobile
-
-# Install Flutter dependencies
-flutter pub get
-
-# Connect Android phone via USB and enable reverse port forwarding
-adb reverse tcp:8000 tcp:8000
-
-# Build and launch on device
-flutter run
-```
-
----
 
 ## 📱 Hardware Stake Pinout Reference (ESP32-S3)
 
@@ -275,17 +228,7 @@ For physical hardware deployments in the field:
 
 ---
 
-## 🏆 Hackathon Judging Criteria Alignment
 
-| Judging Criteria | KisanVaani Implementation |
-| :--- | :--- |
-| **Real-World Impact & Inclusivity** | Truly leaves no farmer behind: cultivators with ₹1,000 keypad feature phones and zero internet can verbally list crops, accept buyer orders over automated calls, and receive biophysical alerts via **Sarvam AI & Twilio Voice/SMS**. |
-| **Technical Depth** | Multi-tier stack: Next.js 15, Flutter 3.29, YOLOv8 Edge Vision, Gemini 3.8 Flash NLU, Sarvam AI Bulbul TTS, Twilio Voice IVR & SMS, ESP32-S3 Telemetry, and Supabase PostgreSQL 16. |
-| **AI Innovation** | Domain-specific prompt engineering with Gemini 3.8 Flash, custom-trained 12-class edge computer vision, and Sarvam AI natural Indic Hindi speech synthesis with in-memory audio pre-warming (<15ms). |
-| **Hardware & IoT** | Biophysical root-zone telemetry simulator with pure-function mathematical models for soil hypoxia and leaf fever, backed by automated SMS cutoff alerts. |
-| **UI/UX Aesthetics & Accessibility** | Premium Apple Human Interface guidelines tailored for rural farmers with ≥72px touch targets, high contrast, and haptic feedback—paired with zero-typing telephony accessibility. |
-
----
 
 ## 📜 License & Acknowledgements
 
